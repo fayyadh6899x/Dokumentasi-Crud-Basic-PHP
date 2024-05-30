@@ -1,0 +1,72 @@
+/* General form styling */
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+/* Input fields styling */
+input[type="text"], button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Heading style */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Table styling for view.php */
+table {
+    background-color: #f2f2f2;
+    padding: 150px; /* Increased padding for a larger appearance */
+    border-radius: 10px; /* Slightly larger border radius for a smoother look */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow for more depth */
+    max-width: 90%; /* Increased max-width for a larger table */
+    margin: 25px auto; /* Adjusted margin for better centering */
+    width: 95%; /* Increased width percentage for better use of space */
+}
+
+th, td {
+    padding: 25px; /* Increased padding for better readability and comfort */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Slightly larger border radius for a smoother look */
+    box-sizing: border-box;
+    text-align: left; /* Align text to the left for a cleaner look */
+}
+
+th {
+    background-color: #4CAF50; /* Green background for headers */
+    color: white; /* White text for contrast */
+    font-size: 20px; /* Increased font size for better visibility */
+}
+
+tr:nth-child(even) {
+    background-color: #f0f0f0; /* Lighter color for even rows for a subtler contrast */
+}
+
+tr:hover {
+    background-color: #cfcfcf; /* Lighter hover color for a gentler interaction effect */
+    cursor: pointer; /* Change cursor to pointer on hover for better user experience */
+}
